@@ -1,24 +1,25 @@
 {
-  "burgers" : [
+  "burgers": [
     {
       "id": 1,
       "username": "sean_ottomanelli",
       "burgerName": "The Sean Deluxe with Cheese",
       "ingredients": [
         {
-          "name": "American Cheese", 
+          "name": "American Cheese",
           "image_url": "http://cheeseimage.com"
         },
         {
-          "name": "Wheat Bun", 
-          "image_url": "http://wheatbunimage.com"          
+          "name": "Wheat Bun",
+          "image_url": "http://wheatbunimage.com"
         }
       ],
       "likes": 2,
       "comments": [
-      "It’s literally just cheese."
+        "It’s literally just cheese.",
+        "test comment"
       ],
-      "description": "For the health-minded folks."  
+      "description": "For the health-minded folks."
     },
     {
       "id": 2,
@@ -26,23 +27,23 @@
       "burgerName": "The Jenna Deluxe",
       "ingredients": [
         {
-          "name": "Turkey Patty", 
+          "name": "Turkey Patty",
           "image_url": "http://turkeypatty.com"
         },
         {
-          "name": "White Bun", 
-          "image_url": "http://whitebunimage.com"          
+          "name": "White Bun",
+          "image_url": "http://whitebunimage.com"
         },
         {
-          "name": "Mayonnaise", 
-          "image_url": "http://mayonnaise.com"          
+          "name": "Mayonnaise",
+          "image_url": "http://mayonnaise.com"
         }
       ],
       "likes": 3,
       "comments": [
-      "Gobble, gobble. I gobbled this up!"
+        "Gobble, gobble. I gobbled this up!"
       ],
-      "description": "Chik-Fil-A cow mascot approved."  
+      "description": "Chik-Fil-A cow mascot approved."
     },
     {
       "id": 3,
@@ -50,23 +51,23 @@
       "burgerName": "The Jenna Basic",
       "ingredients": [
         {
-          "name": "Beef Patty", 
+          "name": "Beef Patty",
           "image_url": "http://beefpatty.com"
         },
         {
-          "name": "White Bun", 
-          "image_url": "http://whitebunimage.com"          
+          "name": "White Bun",
+          "image_url": "http://whitebunimage.com"
         },
         {
-          "name": "Ketchup", 
-          "image_url": "http://ketchup.com"          
+          "name": "Ketchup",
+          "image_url": "http://ketchup.com"
         }
       ],
       "likes": 1,
       "comments": [
-      "I don't even like beef; I just don't like cows."
+        "I don't even like beef; I just don't like cows."
       ],
-      "description": "Not Chik-Fil-A cow mascot approved."  
+      "description": "Not Chik-Fil-A cow mascot approved."
     }
   ]
 }
