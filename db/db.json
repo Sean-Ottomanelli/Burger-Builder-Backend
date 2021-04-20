@@ -158,6 +158,24 @@
       "comments": [],
       "description": "Test 9",
       "id": 8
+    },
+    {
+      "username": "testuser",
+      "burgerName": "testburger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Burger Bun Top.png"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "testdescr",
+      "id": 9
     }
   ]
 }
