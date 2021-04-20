@@ -14,7 +14,7 @@
           "image_url": "http://wheatbunimage.com"
         }
       ],
-      "likes": 2,
+      "likes": 52,
       "comments": [
         "It’s literally just cheese.",
         "test comment"
@@ -39,9 +39,13 @@
           "image_url": "http://mayonnaise.com"
         }
       ],
-      "likes": 3,
+      "likes": 9,
       "comments": [
-        "Gobble, gobble. I gobbled this up!"
+        "Gobble, gobble. I gobbled this up!",
+        "Do I work?",
+        "This looks so goo. Cant wait to make it myself!",
+        "Turkey pattys rock.",
+        "I love mayonnaise"
       ],
       "description": "Chik-Fil-A cow mascot approved."
     },
