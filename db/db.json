@@ -72,6 +72,92 @@
         "I don't even like beef; I just don't like cows."
       ],
       "description": "Not Chik-Fil-A cow mascot approved."
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Carb-Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Burger Bun Top.png"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This is an advanced burger. Only experts should attempt.",
+      "id": 4
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Double-Carb-Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Burger Bun Top.png"
+        },
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Burger Bun Top.png"
+        }
+      ],
+      "likes": 0,
+      "comments": [
+        "I promise I won't try to make this, but dang, it looks so good."
+      ],
+      "description": "This is double expert only. Do not try this at home.",
+      "id": 5
+    },
+    {
+      "username": "Test 2",
+      "burgerName": "Test 1",
+      "ingredients": [],
+      "likes": 0,
+      "comments": [],
+      "description": "Test 3",
+      "id": 6
+    },
+    {
+      "username": "Test 5",
+      "burgerName": "Test 4",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Burger Bun Bottom.png"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "Test 6",
+      "id": 7
+    },
+    {
+      "username": "Test 8",
+      "burgerName": "Test 7",
+      "ingredients": [],
+      "likes": 0,
+      "comments": [],
+      "description": "Test 9",
+      "id": 8
     }
   ]
 }
