@@ -176,6 +176,36 @@
       "comments": [],
       "description": "testdescr",
       "id": 9
+    },
+    {
+      "username": "eric_kim",
+      "burgerName": "Eric's App Saver",
+      "ingredients": [
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle1"
+        },
+        {
+          "name": "Dill Pickles",
+          "image_url": "Ingredient Images/Dill Pickles.png",
+          "id": "Dill Pickles2"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle3"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle4"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This burger is responsible for this app.",
+      "id": 10
     }
   ]
 }
