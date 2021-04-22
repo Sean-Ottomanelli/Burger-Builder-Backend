@@ -1,24 +1,51 @@
 {
-  "burgers" : [
+  "users": [
+    {
+      "id": 1,
+      "username": "sean_ottomanelli"
+    },
+    {
+      "id": 2,
+      "username": "jenna_fritz"
+    },
+    {
+      "id": 3,
+      "username": "eric_kim"
+    },
+    {
+      "id": 4,
+      "username": "vegan_boi_XOXO"
+    },
+    {
+      "username": "hasibul_chowdhury",
+      "id": 5
+    },
+    {
+      "username": "meat_man_365",
+      "id": 6
+    }
+  ],
+  "burgers": [
     {
       "id": 1,
       "username": "sean_ottomanelli",
       "burgerName": "The Sean Deluxe with Cheese",
       "ingredients": [
         {
-          "name": "American Cheese", 
-          "image_url": "http://cheeseimage.com"
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png"
         },
         {
-          "name": "Wheat Bun", 
-          "image_url": "http://wheatbunimage.com"          
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         }
       ],
-      "likes": 2,
+      "likes": 56,
       "comments": [
-      "It’s literally just cheese."
+        "It’s literally just cheese."
       ],
-      "description": "For the health-minded folks."  
+      "description": "For the health-minded folks.",
+      "userId": 1
     },
     {
       "id": 2,
@@ -26,23 +53,28 @@
       "burgerName": "The Jenna Deluxe",
       "ingredients": [
         {
-          "name": "Turkey Patty", 
-          "image_url": "http://turkeypatty.com"
+          "name": "Turkey Patty",
+          "image_url": "Ingredient Images/Turkey Patty.png"
         },
         {
-          "name": "White Bun", 
-          "image_url": "http://whitebunimage.com"          
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
-          "name": "Mayonnaise", 
-          "image_url": "http://mayonnaise.com"          
+          "name": "Mayonnaise",
+          "image_url": "Ingredient Images/Mayonnaise.png"
         }
       ],
-      "likes": 3,
+      "likes": 9,
       "comments": [
-      "Gobble, gobble. I gobbled this up!"
+        "Gobble, gobble. I gobbled this up!",
+        "Do I work?",
+        "This looks so good. Cant wait to make it myself!",
+        "Turkey pattys rock.",
+        "I love mayonnaise"
       ],
-      "description": "Chik-Fil-A cow mascot approved."  
+      "description": "Chik-Fil-A cow mascot approved.",
+      "userId": 2
     },
     {
       "id": 3,
@@ -50,23 +82,227 @@
       "burgerName": "The Jenna Basic",
       "ingredients": [
         {
-          "name": "Beef Patty", 
-          "image_url": "http://beefpatty.com"
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png"
         },
         {
-          "name": "White Bun", 
-          "image_url": "http://whitebunimage.com"          
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
-          "name": "Ketchup", 
-          "image_url": "http://ketchup.com"          
+          "name": "Ketchup",
+          "image_url": "Ingredient Images/Ketchup.png"
         }
       ],
-      "likes": 1,
+      "likes": 3,
       "comments": [
-      "I don't even like beef; I just don't like cows."
+        "I don't even like beef; I just don't like cows."
       ],
-      "description": "Not Chik-Fil-A cow mascot approved."  
+      "description": "Not Chik-Fil-A cow mascot approved.",
+      "userId": 2
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Carb-Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This is an advanced burger. Only experts should attempt.",
+      "id": 4,
+      "userId": 1
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Double-Carb-Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png"
+        },
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png"
+        }
+      ],
+      "likes": 0,
+      "comments": [
+        "I promise I won't try to make this, but dang, it looks so good."
+      ],
+      "description": "This is double expert only. Do not try this at home.",
+      "id": 5,
+      "userId": 1
+    },
+    {
+      "username": "eric_kim",
+      "burgerName": "Eric's App Saver",
+      "ingredients": [
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle1"
+        },
+        {
+          "name": "Dill Pickles",
+          "image_url": "Ingredient Images/Dill Pickles.png",
+          "id": "Dill Pickles2"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle3"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle4"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This burger is responsible for this app.",
+      "id": 10,
+      "userId": 3
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Sean's Double Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom1"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty2"
+        },
+        {
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png",
+          "id": "Cheddar Cheese Slice3"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle4"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty5"
+        },
+        {
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png",
+          "id": "Cheddar Cheese Slice6"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce7"
+        },
+        {
+          "name": "Tomato",
+          "image_url": "Ingredient Images/Tomato.png",
+          "id": "Tomato8"
+        },
+        {
+          "name": "Onions",
+          "image_url": "Ingredient Images/Onions.png",
+          "id": "Onions9"
+        },
+        {
+          "name": "Ketchup",
+          "image_url": "Ingredient Images/Ketchup.png",
+          "id": "Ketchup10"
+        },
+        {
+          "name": "Mayonnaise",
+          "image_url": "Ingredient Images/Mayonnaise.png",
+          "id": "Mayonnaise11"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top12"
+        }
+      ],
+      "likes": 0,
+      "comments": [
+        "I don't even know how you would eat this."
+      ],
+      "description": "Double the beef, double the cheese.",
+      "id": 11,
+      "userId": 1
+    },
+    {
+      "username": "vegan_boi_XOXO",
+      "burgerName": "Spicy Salad Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom0"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce4"
+        },
+        {
+          "name": "Arugala",
+          "image_url": "Ingredient Images/Arugala.png",
+          "id": "Arugala5"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce6"
+        },
+        {
+          "name": "Dill Pickles",
+          "image_url": "Ingredient Images/Dill Pickles.png",
+          "id": "Dill Pickles7"
+        },
+        {
+          "name": "Sweet Pickles",
+          "image_url": "Ingredient Images/Sweet Pickles.png",
+          "id": "Sweet Pickles8"
+        },
+        {
+          "name": "Jalapenos",
+          "image_url": "Ingredient Images/Jalapenos.png",
+          "id": "Jalapenos9"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top10"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This spicy salad burger really tickles my vegan fancy.",
+      "id": 12,
+      "userId": 4
     }
   ]
 }

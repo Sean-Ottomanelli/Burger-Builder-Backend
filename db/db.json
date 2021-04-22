@@ -1,4 +1,30 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "username": "sean_ottomanelli"
+    },
+    {
+      "id": 2,
+      "username": "jenna_fritz"
+    },
+    {
+      "id": 3,
+      "username": "eric_kim"
+    },
+    {
+      "id": 4,
+      "username": "vegan_boi_XOXO"
+    },
+    {
+      "username": "hasibul_chowdhury",
+      "id": 5
+    },
+    {
+      "username": "meat_man_365",
+      "id": 6
+    }
+  ],
   "burgers": [
     {
       "id": 1,
@@ -6,20 +32,20 @@
       "burgerName": "The Sean Deluxe with Cheese",
       "ingredients": [
         {
-          "name": "American Cheese",
-          "image_url": "http://cheeseimage.com"
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png"
         },
         {
-          "name": "Wheat Bun",
-          "image_url": "http://wheatbunimage.com"
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         }
       ],
       "likes": 56,
       "comments": [
-        "It’s literally just cheese.",
-        "test comment"
+        "It’s literally just cheese."
       ],
-      "description": "For the health-minded folks."
+      "description": "For the health-minded folks.",
+      "userId": 1
     },
     {
       "id": 2,
@@ -28,26 +54,27 @@
       "ingredients": [
         {
           "name": "Turkey Patty",
-          "image_url": "http://turkeypatty.com"
+          "image_url": "Ingredient Images/Turkey Patty.png"
         },
         {
-          "name": "White Bun",
-          "image_url": "http://whitebunimage.com"
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
           "name": "Mayonnaise",
-          "image_url": "http://mayonnaise.com"
+          "image_url": "Ingredient Images/Mayonnaise.png"
         }
       ],
       "likes": 9,
       "comments": [
         "Gobble, gobble. I gobbled this up!",
         "Do I work?",
-        "This looks so goo. Cant wait to make it myself!",
+        "This looks so good. Cant wait to make it myself!",
         "Turkey pattys rock.",
         "I love mayonnaise"
       ],
-      "description": "Chik-Fil-A cow mascot approved."
+      "description": "Chik-Fil-A cow mascot approved.",
+      "userId": 2
     },
     {
       "id": 3,
@@ -56,22 +83,23 @@
       "ingredients": [
         {
           "name": "Beef Patty",
-          "image_url": "http://beefpatty.com"
+          "image_url": "Ingredient Images/Beef Patty.png"
         },
         {
-          "name": "White Bun",
-          "image_url": "http://whitebunimage.com"
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
           "name": "Ketchup",
-          "image_url": "http://ketchup.com"
+          "image_url": "Ingredient Images/Ketchup.png"
         }
       ],
       "likes": 3,
       "comments": [
         "I don't even like beef; I just don't like cows."
       ],
-      "description": "Not Chik-Fil-A cow mascot approved."
+      "description": "Not Chik-Fil-A cow mascot approved.",
+      "userId": 2
     },
     {
       "username": "sean_ottomanelli",
@@ -79,17 +107,18 @@
       "ingredients": [
         {
           "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
           "name": "Burger Bun Top",
-          "image_url": "Burger Bun Top.png"
+          "image_url": "Ingredient Images/Burger Bun Top.png"
         }
       ],
       "likes": 0,
       "comments": [],
       "description": "This is an advanced burger. Only experts should attempt.",
-      "id": 4
+      "id": 4,
+      "userId": 1
     },
     {
       "username": "sean_ottomanelli",
@@ -97,19 +126,19 @@
       "ingredients": [
         {
           "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
           "name": "Burger Bun Top",
-          "image_url": "Burger Bun Top.png"
+          "image_url": "Ingredient Images/Burger Bun Top.png"
         },
         {
           "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
+          "image_url": "Ingredient Images/Burger Bun Bottom.png"
         },
         {
           "name": "Burger Bun Top",
-          "image_url": "Burger Bun Top.png"
+          "image_url": "Ingredient Images/Burger Bun Top.png"
         }
       ],
       "likes": 0,
@@ -117,65 +146,8 @@
         "I promise I won't try to make this, but dang, it looks so good."
       ],
       "description": "This is double expert only. Do not try this at home.",
-      "id": 5
-    },
-    {
-      "username": "Test 2",
-      "burgerName": "Test 1",
-      "ingredients": [],
-      "likes": 5,
-      "comments": [],
-      "description": "Test 3",
-      "id": 6
-    },
-    {
-      "username": "Test 5",
-      "burgerName": "Test 4",
-      "ingredients": [
-        {
-          "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
-        },
-        {
-          "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
-        },
-        {
-          "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
-        }
-      ],
-      "likes": 0,
-      "comments": [],
-      "description": "Test 6",
-      "id": 7
-    },
-    {
-      "username": "Test 8",
-      "burgerName": "Test 7",
-      "ingredients": [],
-      "likes": 0,
-      "comments": [],
-      "description": "Test 9",
-      "id": 8
-    },
-    {
-      "username": "testuser",
-      "burgerName": "testburger",
-      "ingredients": [
-        {
-          "name": "Burger Bun Bottom",
-          "image_url": "Burger Bun Bottom.png"
-        },
-        {
-          "name": "Burger Bun Top",
-          "image_url": "Burger Bun Top.png"
-        }
-      ],
-      "likes": 0,
-      "comments": [],
-      "description": "testdescr",
-      "id": 9
+      "id": 5,
+      "userId": 1
     },
     {
       "username": "eric_kim",
@@ -205,7 +177,8 @@
       "likes": 0,
       "comments": [],
       "description": "This burger is responsible for this app.",
-      "id": 10
+      "id": 10,
+      "userId": 3
     },
     {
       "username": "sean_ottomanelli",
@@ -277,7 +250,8 @@
         "I don't even know how you would eat this."
       ],
       "description": "Double the beef, double the cheese.",
-      "id": 11
+      "id": 11,
+      "userId": 1
     },
     {
       "username": "vegan_boi_XOXO",
@@ -327,34 +301,8 @@
       "likes": 0,
       "comments": [],
       "description": "This spicy salad burger really tickles my vegan fancy.",
-      "id": 12
-    },
-    {
-      "username": "",
-      "burgerName": "",
-      "ingredients": [],
-      "likes": 0,
-      "comments": [],
-      "description": "",
-      "id": 13
-    },
-    {
-      "username": "",
-      "burgerName": "",
-      "ingredients": [],
-      "likes": 0,
-      "comments": [],
-      "description": "",
-      "id": 14
-    },
-    {
-      "username": "",
-      "burgerName": "",
-      "ingredients": [],
-      "likes": 0,
-      "comments": [],
-      "description": "",
-      "id": 15
+      "id": 12,
+      "userId": 4
     }
   ]
 }
