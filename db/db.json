@@ -278,6 +278,56 @@
       ],
       "description": "Double the beef, double the cheese.",
       "id": 11
+    },
+    {
+      "username": "vegan_boi_XOXO",
+      "burgerName": "Spicy Salad Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom0"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce4"
+        },
+        {
+          "name": "Arugala",
+          "image_url": "Ingredient Images/Arugala.png",
+          "id": "Arugala5"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce6"
+        },
+        {
+          "name": "Dill Pickles",
+          "image_url": "Ingredient Images/Dill Pickles.png",
+          "id": "Dill Pickles7"
+        },
+        {
+          "name": "Sweet Pickles",
+          "image_url": "Ingredient Images/Sweet Pickles.png",
+          "id": "Sweet Pickles8"
+        },
+        {
+          "name": "Jalapenos",
+          "image_url": "Ingredient Images/Jalapenos.png",
+          "id": "Jalapenos9"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top10"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This spicy salad burger really tickles my vegan fancy.",
+      "id": 12
     }
   ]
 }
