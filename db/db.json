@@ -206,6 +206,78 @@
       "comments": [],
       "description": "This burger is responsible for this app.",
       "id": 10
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Sean's Double Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom1"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty2"
+        },
+        {
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png",
+          "id": "Cheddar Cheese Slice3"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle4"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty5"
+        },
+        {
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png",
+          "id": "Cheddar Cheese Slice6"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce7"
+        },
+        {
+          "name": "Tomato",
+          "image_url": "Ingredient Images/Tomato.png",
+          "id": "Tomato8"
+        },
+        {
+          "name": "Onions",
+          "image_url": "Ingredient Images/Onions.png",
+          "id": "Onions9"
+        },
+        {
+          "name": "Ketchup",
+          "image_url": "Ingredient Images/Ketchup.png",
+          "id": "Ketchup10"
+        },
+        {
+          "name": "Mayonnaise",
+          "image_url": "Ingredient Images/Mayonnaise.png",
+          "id": "Mayonnaise11"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top12"
+        }
+      ],
+      "likes": 0,
+      "comments": [
+        "I don't even know how you would eat this."
+      ],
+      "description": "Double the beef, double the cheese.",
+      "id": 11
     }
   ]
 }
