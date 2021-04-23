@@ -122,8 +122,10 @@
           "image_url": "Ingredient Images/Burger Bun Top.png"
         }
       ],
-      "likes": 0,
-      "comments": [],
+      "likes": 1,
+      "comments": [
+        "Simple but satisfying.- vegan_boi_XOXO"
+      ],
       "description": "This is an advanced burger. Only experts should attempt.",
       "id": 4,
       "userId": 1
@@ -421,6 +423,79 @@
       "description": "There is no burger!",
       "userId": 1,
       "id": 15
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "testburger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom10"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty11"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle12"
+        },
+        {
+          "name": "Turkey Patty",
+          "image_url": "Ingredient Images/Turkey Patty.png",
+          "id": "Turkey Patty13"
+        },
+        {
+          "name": "Burger Bun Middle",
+          "image_url": "Ingredient Images/Burger Bun Middle.png",
+          "id": "Burger Bun Middle14"
+        },
+        {
+          "name": "Veggie Patty",
+          "image_url": "Ingredient Images/Veggie Patty.png",
+          "id": "Veggie Patty15"
+        },
+        {
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png",
+          "id": "Cheddar Cheese Slice16"
+        },
+        {
+          "name": "Fried Egg",
+          "image_url": "Ingredient Images/Fried Egg.png",
+          "id": "Fried Egg17"
+        },
+        {
+          "name": "Salami",
+          "image_url": "Ingredient Images/Salami.png",
+          "id": "Salami18"
+        },
+        {
+          "name": "Mayonnaise",
+          "image_url": "Ingredient Images/Mayonnaise.png",
+          "id": "Mayonnaise19"
+        },
+        {
+          "name": "Dill Pickles",
+          "image_url": "Ingredient Images/Dill Pickles.png",
+          "id": "Dill Pickles20"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top21"
+        }
+      ],
+      "likes": 1,
+      "comments": [
+        "I am alarmed.- sean_ottomanelli"
+      ],
+      "description": "this is a test. do not be alarmed.",
+      "userId": 1,
+      "id": 16
     }
   ]
 }
