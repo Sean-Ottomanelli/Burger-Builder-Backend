@@ -23,6 +23,14 @@
     {
       "username": "meat_man_365",
       "id": 6
+    },
+    {
+      "username": "alice_he",
+      "id": 7
+    },
+    {
+      "username": "BurgerMan",
+      "id": 8
     }
   ],
   "burgers": [
@@ -141,9 +149,10 @@
           "image_url": "Ingredient Images/Burger Bun Top.png"
         }
       ],
-      "likes": 0,
+      "likes": 4,
       "comments": [
-        "I promise I won't try to make this, but dang, it looks so good."
+        "I promise I won't try to make this, but dang, it looks so good.",
+        "I used to eat these all the time as kid. @Bigboyyumyum approved."
       ],
       "description": "This is double expert only. Do not try this at home.",
       "id": 5,
@@ -174,7 +183,7 @@
           "id": "Burger Bun Middle4"
         }
       ],
-      "likes": 0,
+      "likes": 5,
       "comments": [],
       "description": "This burger is responsible for this app.",
       "id": 10,
@@ -245,9 +254,11 @@
           "id": "Burger Bun Top12"
         }
       ],
-      "likes": 0,
+      "likes": 1,
       "comments": [
-        "I don't even know how you would eat this."
+        "I don't even know how you would eat this.",
+        "double",
+        "Woweeee- sean_ottomanelli"
       ],
       "description": "Double the beef, double the cheese.",
       "id": 11,
@@ -303,6 +314,113 @@
       "description": "This spicy salad burger really tickles my vegan fancy.",
       "id": 12,
       "userId": 4
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Burper",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom0"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty1"
+        },
+        {
+          "name": "Cheddar Cheese Slice",
+          "image_url": "Ingredient Images/Cheddar Cheese Slice.png",
+          "id": "Cheddar Cheese Slice2"
+        },
+        {
+          "name": "Turkey Patty",
+          "image_url": "Ingredient Images/Turkey Patty.png",
+          "id": "Turkey Patty4"
+        },
+        {
+          "name": "Swiss Cheese Slice",
+          "image_url": "Ingredient Images/Swiss Cheese Slice.png",
+          "id": "Swiss Cheese Slice6"
+        },
+        {
+          "name": "Fried Egg",
+          "image_url": "Ingredient Images/Fried Egg.png",
+          "id": "Fried Egg7"
+        },
+        {
+          "name": "Lettuce",
+          "image_url": "Ingredient Images/Lettuce.png",
+          "id": "Lettuce8"
+        },
+        {
+          "name": "Tomato",
+          "image_url": "Ingredient Images/Tomato.png",
+          "id": "Tomato9"
+        },
+        {
+          "name": "Peppers",
+          "image_url": "Ingredient Images/Peppers.png",
+          "id": "Peppers12"
+        },
+        {
+          "name": "Ketchup",
+          "image_url": "Ingredient Images/Ketchup.png",
+          "id": "Ketchup13"
+        },
+        {
+          "name": "Bacon",
+          "image_url": "Ingredient Images/Bacon.png",
+          "id": "Bacon14"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top15"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This burger is sure to make you belch!",
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "username": "BurgerMan",
+      "burgerName": "Simple Burger",
+      "ingredients": [
+        {
+          "name": "Burger Bun Bottom",
+          "image_url": "Ingredient Images/Burger Bun Bottom.png",
+          "id": "Burger Bun Bottom0"
+        },
+        {
+          "name": "Beef Patty",
+          "image_url": "Ingredient Images/Beef Patty.png",
+          "id": "Beef Patty1"
+        },
+        {
+          "name": "Burger Bun Top",
+          "image_url": "Ingredient Images/Burger Bun Top.png",
+          "id": "Burger Bun Top2"
+        }
+      ],
+      "likes": 0,
+      "comments": [],
+      "description": "This burger is simple.",
+      "userId": 8,
+      "id": 14
+    },
+    {
+      "username": "sean_ottomanelli",
+      "burgerName": "Ghost Burger",
+      "ingredients": [],
+      "likes": 0,
+      "comments": [],
+      "description": "There is no burger!",
+      "userId": 1,
+      "id": 15
     }
   ]
 }
